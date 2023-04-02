@@ -13,7 +13,7 @@ from singer_sdk.streams import RESTStream
 
 class TapConfluenceStream(RESTStream):
 
-    limit: int = 25
+    limit: int = 15
     expand: List[str] = []
 
     @property
